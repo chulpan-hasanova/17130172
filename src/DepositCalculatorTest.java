@@ -7,15 +7,15 @@ class DepositCalculatorTest {
 	@Test
 	void testDeposit() {
 		DepositCalculator test = new DepositCalculator();
-		double result = test.Deposit(30000.0 , 10.0, 1);
-		assertEquals(33000, result);
+		double result = test.Deposit(32000.0 , 12.0, 2);
+		assertEquals(39680, result);
 	}
 	
 	@Test
 	void testDeposit1() {
 		DepositCalculator test = new DepositCalculator();
-		double result = test.Deposit(15000.0 , 4.0, 1);
-		assertEquals(15600, result);
+		double result = test.Deposit(20000.0 , 7.0, 2);
+		assertEquals(22800, result);
 	}
 	
 }
